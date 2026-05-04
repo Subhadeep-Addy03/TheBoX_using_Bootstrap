@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box With Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <!-- navbar section starts -->
+    <section>
+        <nav class="navbar navbar-expand-lg fw-bold">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/navber/logo.svg" alt="logo">
+                    <span><i>The </i> Box</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="navbar-nav gap-2 gap-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link  nav-items" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-items" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-items" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-items" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-items" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- navbar ends -->
+
+    <!--hero section starts -->
+    <section class="hero position-relative">
+        <h1 class="hero-heading ">Building things is our mission.</h1>
+        <div class="hero-contents text-center m-auto ">
+            <h2 class="hero-content-heading fw-bold">Feature Projects</h2>
+            <p class="hero-content-info m-auto">The National University of Architecture</p>
+            <div class="hero-content-buttons d-flex">
+                <button class="hero-button p-1 gap-2 d-flex align-items-center justify-content-center">
+                    <img src="./images/hero/back.svg" alt="back">
+                    Back
+                </button>
+                <button class="hero-button p-1 gap-2 d-flex align-items-center justify-content-center">
+                    Next
+                    <img src="./images/hero/next.svg" alt="next">
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- hero ends -->
+
+    <!-- reputation section starts -->
+    <section class="reasons">
+        <h3 class="reason-heading text-center fw-bold ">Our Reputation</h3>
+        <div class="reason-contents d-md-flex flex-wrap gap-2 justify-content-center align-items-center">
+            <div class="cards border border-1 p-2">
+                <img src="./images/reasons/service_icon.svg" alt="icon" width="20">
+                <h4 class="reason-content-heading fw-bold">Best Services</h4>
+                <p class="reason-content-info">Nullam senectus porttitor in eget. Eget rutrum leo interdum.</p>
+            </div>
+            <div class="cards border border-1 p-2">
+                <img src="./images/reasons/service_icon.svg" alt="icon" width="20">
+                <h4 class="reason-content-heading fw-bold">Best Teams</h4>
+                <p class="reason-content-info">Cursus semper tellus volutpat aliquet lacus.</p>
+            </div>
+            <div class="cards border border-1 p-2">
+                <img src="./images/reasons/design_icon.svg" alt="icon" width="20">
+                <h4 class="reason-content-heading fw-bold">Best Designs</h4>
+                <p class="reason-content-info">Ultricies at ipsum nunc, tristique nam lectus.</p>
+            </div>
+        </div>
+    </section>
+    <!-- reputation ends -->
+
+    <!-- about-starts -->
+    <section class="about-us">
+        <div class="about-wrapper">
+            <div class="about-image">
+                <img src="" alt="About-image">
+            </div>
+            <div class="about-contents">
+                <h5 class="about-heading">About us</h5>
+                <p class="about-info">
+                    For more than 30 years we have been delivering world-class construction
+                    and we’ve built many lasting relationships along the way.
+                </p>
+                <p class="about-info">
+                    We’ve matured into an industry leader and trusted resource for those seeking
+                    quality, innovation and reliability when building in the U.S.
+                </p>
+                <button class="about-button">More on Our History</button>
+            </div>
+        </div>
+    </section>
+    <!-- about ends -->
+
+</body>
+
+</html>

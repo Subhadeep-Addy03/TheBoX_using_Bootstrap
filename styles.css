@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+/* nav starts */
+.nav-items:hover {
+    color: orange;
+}
+/* nav ends */
+
+/* hero starts */
+.hero {
+    background-image: url(./images/hero/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-heading {
+    padding: 50px 0;
+    font-size: 27px;
+    width: 190px;
+    margin: auto;
+}
+
+.hero-contents {
+    background-color: #3559C7;
+    width: 300px;
+    color: aliceblue;
+}
+
+.hero-content-heading {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.hero-content-info {
+    width: 288px;
+    padding-bottom: 30px;
+}
+
+.hero-button {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #292E3D;
+}
+
+@media(min-width:768px) {
+    .hero-contents {
+        position: absolute;
+        right: 65px;
+        bottom: 0;
+    }
+
+    .hero-heading {
+        padding: 130px 0;
+        width: 311px;
+        font-size: 40px;
+        margin-left: 70px;
+    }
+}
+
+@media(min-width:1024px) {
+    .hero-contents {
+        position: absolute;
+        right: 65px;
+        bottom: 0;
+    }
+
+    .hero-heading {
+        padding: 170px 0;
+        width: 395px;
+        font-size: 57px;
+        margin-left: 70px;
+    }
+}
+
+@media(min-width:1440px) {
+    .hero-contents {
+        position: absolute;
+        width: 416px;
+        right: 65px;
+        bottom: 0;
+    }
+
+    .hero-content-heading {
+        font-size: 20px;
+    }
+
+    .hero-content-info {
+        font-size: 24px;
+    }
+
+    .hero-heading {
+        padding: 260px 0;
+        width: 500px;
+        font-size: 72px;
+        margin-left: 160px;
+    }
+}
+
+/* hero ends */
+
+/* reasons starts */
+.reason-heading {
+    padding-top: 35px;
+    font-size: 23px;
+    padding-bottom: 20px;
+    text-shadow: 0 1px 3px #000000;
+}
+
+.reason-contents {
+    width: 90%;
+    margin: auto;
+}
+
+.cards {
+    padding: 15px;
+    width: 292px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .15);
+}
+
+.reason-content-heading {
+    font-size: 15px;
+}
+
+.reason-content-info {
+    font-size: 18px;
+    width: 254px;
+}
+
+@media(min-width:768px) {
+    .reason-heading {
+        font-size: 26px;
+    }
+
+    .reason-content-heading {
+        font-size: 17px;
+    }
+}
+
+@media(min-width:1024px) {
+    .reason-heading {
+        font-size: 31px;
+    }
+
+    .reason-content-heading {
+        font-size: 19px;
+    }
+}
+
+@media(min-width:1440px) {
+    .reason-heading {
+        font-size: 36px;
+    }
+
+    .reason-content-heading {
+        font-size: 20px;
+    }
+}
+
+/* reasons ends */
+
+/* about-section starts */
+/* 
+.about-us {
+    padding: 40px 15px;
+    position: relative;
+}
+
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-image{
+    width: 320px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.about-content {
+    background-color: #2f4f9f;
+    color: #fff;
+    padding: 20px;
+}
+
+.about-heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.about-info {
+    font-size: 13px;
+    width: 222px;
+}
+
+.about-button {
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    color: #2f4f9f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+
+    .about {
+        padding: 60px 20px;
+        position: absolute;
+        bottom: 0;
+    }
+    .about-image{
+        width: 450px;
+    }
+    .about-wrapper{
+        flex-direction: row;
+        gap: 0;
+
+    }
+
+    .about-content {
+        padding: 25px;
+    }
+
+    .about-heading {
+        font-size: 24px;
+    }
+
+    .about-info {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .about-wrapper {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        position: relative;
+    }
+
+    .about-image {
+        flex: 1;
+    }
+
+    .about-content {
+        position: absolute;
+        right: 0;
+        bottom: 30px;
+        max-width: 400px;
+        padding: 30px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-heading {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .about {
+        padding: 80px 0;
+    }
+
+    .about-content {
+        max-width: 450px;
+        padding: 35px;
+    }
+
+    .about-heading {
+        font-size: 28px;
+    }
+
+    .about-info {
+        font-size: 15px;
+    }
+} */
+/* about-ends */
